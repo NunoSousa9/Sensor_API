@@ -50,8 +50,8 @@ The Sensor API Management Application is a full-stack solution for managing sens
 
 ## Project Structure
 
-- **Backend**: Located in the `Backend` directory.
-- **Frontend**: Located in the `Frontend` directory.
+- **Backend**: Located in the **`Backend`** directory.
+- **Frontend**: Located in the **`Frontend`** directory.
 
 ## Setup Instructions
 
@@ -82,13 +82,13 @@ The Sensor API Management Application is a full-stack solution for managing sens
     ```
 
 2. Access the application:
-   - Backend API: `http://localhost:8080`
-   - Frontend: `http://localhost:3000`
+   - Backend API: **`http://localhost:8080`**
+   - Frontend: **`http://localhost:3000`**
 
 ### Usage
 
 1. **Register a new user**:
-   - Go to the registration page @`http://localhost:3000` and create a new account.
+   - Go to the registration page at **`http://localhost:3000`** and create a new account.
 
 2. **Login**:
    - Use the registered credentials to log in.
@@ -102,7 +102,20 @@ The Sensor API Management Application is a full-stack solution for managing sens
    - Add new sensors with auto-generated UID and server timestamp.
    - Edit or delete existing sensors.
 
+### Accessing RabbitMQ Management
+
+- RabbitMQ Management interface is available at **`http://localhost:15672`**.
+- Default username: **`guest`**
+- Default password: **`guest`**
+
+### Accessing MongoDB
+
+- MongoDB is accessible at **`mongodb://localhost:27017`**.
+- You can connect using MongoDB Compass or the Mongo shell:
+  - **MongoDB Compass**: Use the connection string **`mongodb://localhost:27017`**.
+  - **Mongo Shell**: Run **`mongo --host localhost --port 27017`**.
+
 ## API Documentation
 
-- Access the Swagger API documentation at `http://localhost:8080/swagger-ui.html` for detailed information about the available endpoints and their usage.
-- Sensor data available at `http://localhost:8080/sensors/*`.
+- Access the Swagger API documentation at **`http://localhost:8080/swagger-ui.html`** for detailed information about the available endpoints and their usage.
+- Sensor data available at **`http://localhost:8080/sensors/*`**.
