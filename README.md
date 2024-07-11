@@ -85,6 +85,7 @@ The Sensor API Management Application is a full-stack solution for managing sens
    - Backend API: **`http://localhost:8080`**
    - Frontend: **`http://localhost:3000`**
 
+
 ### Usage
 
 1. **Register a new user**:
@@ -93,14 +94,21 @@ The Sensor API Management Application is a full-stack solution for managing sens
 2. **Login**:
    - Use the registered credentials to log in.
    - The token will be stored in localStorage.
+  
+   ![Login Page](images/login.png)
+
 
 3. **Dashboard**:
    - View statistics for temperature and luminosity sensors.
    - Export sensor data to CSV files.
-
-4. **Sensor Management**:
+  
+   
+5. **Sensor Management**:
    - Add new sensors with auto-generated UID and server timestamp.
    - Edit or delete existing sensors.
+
+   ![Sensor Management](images/sensor_management.png)
+
 
 ### Accessing RabbitMQ Management
 
@@ -114,6 +122,12 @@ The Sensor API Management Application is a full-stack solution for managing sens
 - You can connect using MongoDB Compass or the Mongo shell:
   - **MongoDB Compass**: Use the connection string **`mongodb://localhost:27017`**.
   - **Mongo Shell**: Run **`mongo --host localhost --port 27017`**.
+ 
+### Example of CSV Download
+
+- Export data to a CSV file from the dashboard.
+
+   ![CSV Download](images/csv_download.png)
 
 ## API Documentation
 
