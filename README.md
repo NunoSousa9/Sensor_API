@@ -58,6 +58,7 @@ The Sensor API Management Application is a full-stack solution for managing sens
 ### Prerequisites
 
 - Docker and Docker Compose installed on your system.
+- Git installed on your system.
 
 ### Cloning the Repository
 
@@ -101,6 +102,8 @@ The Sensor API Management Application is a full-stack solution for managing sens
 3. **Dashboard**:
    - View statistics for temperature and luminosity sensors.
    - Export sensor data to CSV files.
+  
+   ![Dashboard](images/dashboard.png)
   
    
 5. **Sensor Management**:
