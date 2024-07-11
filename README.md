@@ -47,11 +47,15 @@ The Sensor API Management Application is a full-stack solution for managing sens
 - **Containerization**:
   - Docker
   - Docker Compose
+ 
+- **Testing**:
+  - JUnit for unit testing in the backend
+  - Mockito for mocking in backend tests
 
 ## Project Structure
 
-- **Backend**: Located in the **`Backend`** directory.
-- **Frontend**: Located in the **`Frontend`** directory.
+- **Backend**: Located in the [Backend directory](https://github.com/NunoSousa9/Sensor-API-Backend/tree/227421ba9c78fdd5ee48569e2a68d02f9380c18d).
+- **Frontend**: Located in the [Frontend directory](https://github.com/NunoSousa9/Sensor-API-Frontend/tree/2dbfe1f919fccbdef049c1eccc54aac9637eb662).
 
 ## Setup Instructions
 
