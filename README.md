@@ -47,17 +47,22 @@ The Sensor API Management Application is a full-stack solution for managing sens
 - **Containerization**:
   - Docker
   - Docker Compose
+ 
+- **Testing**:
+  - JUnit for unit testing in the backend
+  - Mockito for mocking in backend tests
 
 ## Project Structure
 
-- **Backend**: Located in the **`Backend`** directory.
-- **Frontend**: Located in the **`Frontend`** directory.
+- **Backend**: Located in the [Backend directory](https://github.com/NunoSousa9/Sensor-API-Backend/tree/227421ba9c78fdd5ee48569e2a68d02f9380c18d).
+- **Frontend**: Located in the [Frontend directory](https://github.com/NunoSousa9/Sensor-API-Frontend/tree/2dbfe1f919fccbdef049c1eccc54aac9637eb662).
 
 ## Setup Instructions
 
 ### Prerequisites
 
 - Docker and Docker Compose installed on your system.
+- Git installed on your system.
 
 ### Cloning the Repository
 
@@ -85,6 +90,7 @@ The Sensor API Management Application is a full-stack solution for managing sens
    - Backend API: **`http://localhost:8080`**
    - Frontend: **`http://localhost:3000`**
 
+
 ### Usage
 
 1. **Register a new user**:
@@ -93,14 +99,23 @@ The Sensor API Management Application is a full-stack solution for managing sens
 2. **Login**:
    - Use the registered credentials to log in.
    - The token will be stored in localStorage.
+  
+   ![Login Page](images/login.png)
+
 
 3. **Dashboard**:
    - View statistics for temperature and luminosity sensors.
    - Export sensor data to CSV files.
-
-4. **Sensor Management**:
+  
+   ![Dashboard](images/dashboard.png)
+  
+   
+5. **Sensor Management**:
    - Add new sensors with auto-generated UID and server timestamp.
    - Edit or delete existing sensors.
+
+   ![Sensor Management](images/sensor_management.png)
+
 
 ### Accessing RabbitMQ Management
 
@@ -114,6 +129,12 @@ The Sensor API Management Application is a full-stack solution for managing sens
 - You can connect using MongoDB Compass or the Mongo shell:
   - **MongoDB Compass**: Use the connection string **`mongodb://localhost:27017`**.
   - **Mongo Shell**: Run **`mongo --host localhost --port 27017`**.
+ 
+### Example of CSV Download
+
+- Export data to a CSV file from the dashboard.
+
+   ![CSV Download](images/csv_download.png)
 
 ## API Documentation
 
