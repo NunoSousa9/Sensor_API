@@ -125,9 +125,9 @@ The Sensor API Management Application is a full-stack solution for managing sens
 
 ### Accessing MongoDB
 
-- MongoDB is accessible at **`mongodb://localhost:27017`**.
+- MongoDB is accessible at **`mongodb://mongo:27017`**.
 - You can connect using MongoDB Compass or the Mongo shell:
-  - **MongoDB Compass**: Use the connection string **`mongodb://localhost:27017`**.
+  - **MongoDB Compass**: Use the connection string **`mongodb://mongo:27017`**.
   - **Mongo Shell**: Run **`mongo --host localhost --port 27017`**.
  
 ### Example of CSV Download
